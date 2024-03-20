@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-cont {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161624;
+}
+
+.countries-cont {
+  width: 80%;
+  height: 45vh;
+  font-family: 'roboto';
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
+.countries-list {
+  width: 100%;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #1f1f2f;
+  border: 1px solid #f1f5f9;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.country-item {
+  border-bottom: 1px solid #f1f5f9;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+
+.butt {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.v-text {
+  color: #334155;
+}
+
+.visited-countries-cont {
+  width: 80%;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+
+.v-countries-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.v-country-item {
+  width: 30%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.flag-pic {
+  width: 100%;
+}
+
+.name-remove-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #ffffff;
+  font-family: 'roboto';
+  background-color: #1f1f2f;
+}
+
+.r-butt {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nvc-cont {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+}
